@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology Consulting | Quirky and Sleek Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Technology Consulting</h1>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="hero-content">
+                        <h1>Transform Your Business</h1>
+                        <p>With our expert technology consulting, you can 
+unlock your business potential and achieve your goals.</p>
+                        <button class="btn">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="hero-image">
+                        <img src="images/undraw_tech_tutorial.svg" alt="Hero Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>We offer a wide range of technology consulting services that can help you navigate the 
+fast-changing landscape of technology.</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="service-box">
+                        <img src="images/undraw_online_research.svg" alt="Service Icon">
+                        <h3>Technology Research</h3>
+                        <p>We help you research the latest technologies and trends that can benefit 
+your business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="service-box">
+                        <img src="images/undraw_business_analytics.svg" alt="Service Icon">
+                        <h3>Business Analytics</h3>
+                        <p>We use data and analytics to help you make informed decisions about your 
+business.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="service-box">
+                        <img src="images/undraw_design_thinking.svg" alt="Service Icon">
+                        <h3>Design Thinking</h3>
+                        <p>We help you approach problems from a design perspective and find innovative 
+solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of technology experts who are passionate about helping businesses succeed 
+in today's fast-changing digital landscape.</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <img src="images/about.jpg" alt="About Image">
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <p>Our team has a deep understanding of the latest technologies and trends in 
+business consulting. We work closely with our clients to understand their needs and develop customized 
+solutions that help them achieve their goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <p>We have worked with a variety of clients from different industries to develop innovative
+solutions that help them succeed in their businesses.</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-box">
+                        <img src="images/portfolio-1.jpg" alt="Portfolio Image">
+                        <h3>Client 1</h3>
+                        <p>We helped Client 1 to develop a new mobile application that improved their 
+customer engagement.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-box">
+                        <img src="images/portfolio-2.jpg" alt="Portfolio Image">
+                        <h3>Client 2</h3>
+                        <p>We helped Client 2 to implement a new CRM system that improved their sales 
+processes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-box">
+                        <img src="images/portfolio-3.jpg" alt="Portfolio Image">
+                        <h3>Client 3</h3>
+                        <p>We helped Client 3 to develop a new website that increased their online 
+visibility.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to work with us, please feel free to reach 
+out.</p>
+            <form action="">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="btn">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Technology Consulting. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- CSS Stylesheet -->
+<style>
+    /* Global */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    html, body {
+        min-height: 100%;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: normal;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
+    }
+
+    /* Header */
+    .header {
+        background-color: #01417d;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        color: white;
+        font-size: 24px;
+        letter-spacing: 1.5px;
+        margin-left: 30px;
+    }
+
+    .navigation ul li a {
+        color: #fff;
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-size: 14px;
+        letter-spacing: 1.5px;
+    }
+
+    /* About */
+    .about {
+        padding: 60px 30px;
+        background-color: #fff;
+    }
+
+    .about p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    /* Portfolio */
+    .portfolio {
+        padding: 60px 30px;
+        background-color: #fff;
+    }
+
+    .portfolio-box {
+        position: relative;
+        margin-bottom: 25px;
+    }
+
+    .portfolio-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    .portfolio-box h3 {
+        color: #01417d;
+        font-size: 22px;
+        letter-spacing: 1.5px;
+        margin-top: 25px;
+    }
+
+    .portfolio-box p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    /* Contact */
+    .contact {
+        padding: 60px 30px;
+        background-color: #fff;
+    }
+
+    .contact form input,
+    textarea {
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+        border: none;
+        margin-bottom: 25px;
+        border-radius: 4px;
+    }
+
+    .contact form button {
+        background-color: #01417d;
+        color: #fff;
+        padding: 15px 30px;
+        font-size: 18px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .contact form button:hover {
+        background-color: #0162b7;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #01417d;
+        padding: 30px 60px;
+        color: #fff;
+        font-size: 18px;
+        text-align: center;
+    }
+</style>
